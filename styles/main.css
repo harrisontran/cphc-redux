@@ -1,12 +1,33 @@
+@font-face {
+    font-family: 'Gill Sans MT'; /*a name to be used later*/
+    src: url(GIL_____.TTF); /*URL to font*/
+}
+@font-face {
+    font-family: 'Calibri'; /*a name to be used later*/
+    src: url(calibri.ttf); /*URL to font*/
+}
+
 body, html {
 	margin:0;
   	padding:0;
   	background-color:#002333;
   	font-family:'Calibri','Helvetica',sans-serif;
 }
+
 a {
 	text-decoration:none;
 }
+
+h1 {
+	font-family:'Gill Sans MT';
+	font-weight:normal;
+	font-variant: small-caps;
+}
+
+div.clear {
+    clear:both;
+}
+
 #container {
 	margin: auto;
     width: 90%;
@@ -17,7 +38,7 @@ a {
 #head-nav {
 	background-color:#e6f7ff;
 	border-bottom:2px solid #008bcc;
-	padding:0em 2em 0em 2em;
+	padding:0.5em 2em 0.5em 2em;
 }
 
 #head-links {
@@ -30,7 +51,6 @@ a {
 	margin-left:1em;
 	margin-right:1em;
 }
-
 
 .head-link:hover {
 	color:#ff6600;
@@ -65,7 +85,89 @@ input[type="submit"] {
 	border:1px solid black;
 }
 
+#header {
+	padding:0em 2em 0em 2em;
+	border-bottom:1px solid #ccc;
+}
 
-div.clear {
-    clear:both;
+#cphc {
+	margin-bottom:0;
+}
+
+#subhead {
+	color:#888;
+	margin-top:0;
+	margin-bottom:0;
+	font-family:'Gill Sans MT';
+}
+
+#header-right {
+	float:right;
+}
+
+.emblem {
+	width:30%;
+	float:right;
+}
+
+#navbar {
+	border-bottom:1px solid #ccc;
+}
+
+.nav-cat {
+    background-color: #e6f7ff;
+    color: #008bcc;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-content a:hover {background-color: #f1f1f1}
+
+.nav-item:hover .nav-content {
+    display: block;
+}
+
+.nav-item:hover .nav-cat {
+    background-color:  #cce6ff;
+}
+
+#socialbar {
+	float:right;
+	margin-right:1em;
+}
+
+.social {
+	width:2%;
+	float:right;
+	margin-top:0.5em;
+	margin-right:0.5em;
+}
+
+.social-special {
+	width:5%;
+	float:right;
+	margin-top:0.5em;
+	margin-right:0.5em;
 }
