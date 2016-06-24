@@ -18,6 +18,11 @@ a {
 	text-decoration:none;
 }
 
+a:hover {
+	color:#ff6600;
+	text-decoration:underline;
+}
+
 h1 {
 	font-family:'Gill Sans MT';
 	font-weight:normal;
@@ -170,4 +175,85 @@ input[type="submit"] {
 	float:right;
 	margin-top:0.5em;
 	margin-right:0.5em;
+}
+
+#headlines {
+	padding:0.5em 2em 0.5em 2em;
+}
+
+#head-title {
+	font-weight:bold;
+	color:#008bcc;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+#cpac {
+	background-color:#f0f0f0;
+	width:50%;
+	display:inline-block;
+	margin:1em;
+	padding:0.5em;
+	box-shadow: 3px 3px 5px #ddd;
+}
+
+#epac {
+	background-color:#f0f0f0;
+	box-shadow: 3px 3px 5px #ddd;
+	width:40%;
+	float:right;
+	display:inline-block;
+	margin:1em;
+	padding:0.5em;
+}
+
+.basin-title {
+	font-family:'Georgia';
+	font-weight:lighter;
+	margin-bottom:0;
+}
+
+.xml-link {
+	font-size:0.7em;
+	margin-top:0;
+	color:gray;
+}
+
+.products {
+	margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+}
+
+.products tr td {
+	background-color:#e6f7ff;
+	color:#008bcc;
+	box-shadow: 3px 3px 5px #ddd;
+}
+.products tr td:hover {
+	background-color:#cce6ff;
+	color:#008bcc;
+}
+.product {
+	margin:0.5em;
+	padding:0.5em;
+	border:1px solid #aaa;
+}
+.gtwo {
+	display: block;
+    margin: 0 auto;
+    width:90%;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
